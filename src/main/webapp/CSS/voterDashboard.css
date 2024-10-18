@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .logout-link {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            background-color: #e74c3c;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-link:hover {
+            background-color: #c0392b;
+        }
+
+        .welcome-section {
+            padding: 20px;
+            background-color: #ecf0f1;
+            text-align: center;
+        }
+
+        .welcome-section h2 {
+            color: #003366;
+            font-size: 22px;
+        }
+
+        .candidate-section {
+            padding: 20px;
+            text-align: center;
+            flex: 1; /* Allows content to take remaining space */
+        }
+
+        .candidate-section h2 {
+            color: #003366;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 87%;
+            border-collapse: collapse;
+            background-color: white;
+            margin: 0 auto;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #003366;
+            color: white;
+        }
+
+        td img {
+            border-radius: 5%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .vote-button {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .vote-button:hover {
+            background-color: #2ecc71;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto; /* Ensures footer is at the bottom */
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+        }

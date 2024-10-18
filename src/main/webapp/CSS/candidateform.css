@@ -1,0 +1,112 @@
+@charset "UTF-8";
+ html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-image: url('https://st4.depositphotos.com/7335562/22652/i/450/depositphotos_226520656-stock-photo-snow-texture-blue-tone-snowy.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            flex: 1;
+            margin-top: 30px;
+            max-width: 520px;
+        }
+
+        h2 {
+            color: #003366;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            background-color: #003366;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            margin-left:30px;
+        }
+        
+        #name:hover {
+            color:#00aaff;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: white;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border: none;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+        }
+
+        input[type="date"] {
+            max-width: 100%;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #cce5ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .btn btn-outline-light:hover{
+            color:#f5faff;
+        }
